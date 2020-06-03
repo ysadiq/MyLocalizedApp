@@ -1,0 +1,16 @@
+PODS:
+  - LocalizationFramework (1.0.0)
+
+DEPENDENCIES:
+  - LocalizationFramework (from `../LocalizationFramework`)
+
+EXTERNAL SOURCES:
+  LocalizationFramework:
+    :path: "../LocalizationFramework"
+
+SPEC CHECKSUMS:
+  LocalizationFramework: 5df7c28861a30ca6dc5d80a9a2b95559daf396b9
+
+PODFILE CHECKSUM: 94e1502f7e62c21eb71c211e2ea02a274f947809
+
+COCOAPODS: 1.9.0

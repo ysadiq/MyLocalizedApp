@@ -1,0 +1,6 @@
+framework module LocalizationFramework {
+  umbrella header "LocalizationFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

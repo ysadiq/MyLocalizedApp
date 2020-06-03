@@ -1,0 +1,6 @@
+framework module Pods_MyLocalizedApp {
+  umbrella header "Pods-MyLocalizedApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

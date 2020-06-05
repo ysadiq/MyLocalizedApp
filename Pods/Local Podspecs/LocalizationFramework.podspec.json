@@ -4,10 +4,6 @@
   "summary": "A short description of LocalizationFramework.",
   "description": "LocalizationFramework is a small educational framework!",
   "homepage": "http://EXAMPLE/LocalizationFramework",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
   "authors": {
     "YOUR_NAME": "YOUR_EMAIL"
   },
@@ -15,7 +11,7 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "file:/Users/minds/Dev/LocalizationFramework/"
+    "http": "file:/Users/minds/Dev/Localization/final/LocalizationFramework/"
   },
   "source_files": "LocalizationFramework/**/*.{swift,lproj,strings}",
   "swift_versions": "5.1",

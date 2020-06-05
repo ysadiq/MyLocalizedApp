@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		309C7D6782A28392AD1FDA4C /* Pods_MyLocalizedApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9A7B25C91A5DB3D68374CC /* Pods_MyLocalizedApp.framework */; };
+		990108CC248A32920038A530 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 990108CE248A32920038A530 /* Localizable.strings */; };
 		99D5CF9024879FAC0098E7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5CF8F24879FAC0098E7BE /* AppDelegate.swift */; };
 		99D5CF9424879FAC0098E7BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5CF9324879FAC0098E7BE /* ViewController.swift */; };
 		99D5CF9724879FAC0098E7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D5CF9524879FAC0098E7BE /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		28CDF6631051479BC138289F /* Pods-MyLocalizedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLocalizedApp.debug.xcconfig"; path = "Target Support Files/Pods-MyLocalizedApp/Pods-MyLocalizedApp.debug.xcconfig"; sourceTree = "<group>"; };
+		990108CD248A32920038A530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		990108CF248A32A70038A530 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		99D5CF8C24879FAC0098E7BE /* MyLocalizedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocalizedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D5CF8F24879FAC0098E7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99D5CF9324879FAC0098E7BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +49,6 @@
 				28CDF6631051479BC138289F /* Pods-MyLocalizedApp.debug.xcconfig */,
 				A9C3F3F330EDBF7EEA5D87B4 /* Pods-MyLocalizedApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +87,7 @@
 				99D5CF9824879FAE0098E7BE /* Assets.xcassets */,
 				99D5CF9A24879FAE0098E7BE /* LaunchScreen.storyboard */,
 				99D5CF9D24879FAE0098E7BE /* Info.plist */,
+				990108CE248A32920038A530 /* Localizable.strings */,
 			);
 			path = MyLocalizedApp;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 99D5CF8324879FAC0098E7BE;
 			productRefGroup = 99D5CF8D24879FAC0098E7BE /* Products */;
@@ -150,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D5CF9C24879FAE0098E7BE /* LaunchScreen.storyboard in Resources */,
+				990108CC248A32920038A530 /* Localizable.strings in Resources */,
 				99D5CF9924879FAE0098E7BE /* Assets.xcassets in Resources */,
 				99D5CF9724879FAC0098E7BE /* Main.storyboard in Resources */,
 			);
@@ -212,6 +217,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		990108CE248A32920038A530 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990108CD248A32920038A530 /* en */,
+				990108CF248A32A70038A530 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		99D5CF9524879FAC0098E7BE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -235,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -295,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

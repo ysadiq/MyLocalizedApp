@@ -11,12 +11,14 @@ import LocalizationFramework
 
 class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var descriptionText: UITextField!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var detailsLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         titleLabel.text = Localization.title
-        descriptionText.text = Localization.description
+        descriptionLabel.text = Localization.description
+        detailsLabel.text = "details".localized()
     }
 }
